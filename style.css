@@ -3,14 +3,14 @@
     padding: 0;
 }
 .email-signature{
-    color: #fff;
-    background:  #222f42;
+    color: #222f42;
+    background: linear-gradient(45deg, white, #38B6FF);
     font-family: 'Muli', sans-serif;
     /* padding: 20px 20px 20px 20px; */
-    border: 15px solid white;
+/*     border: 15px solid white; */
 /*     box-shadow: 0 0 0 3px #91b33c inset, 0 0 10px rgba(0, 0, 0, 0.5); */
 /*     position: relative;  */
-    max-width: 600px;
+    max-width: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +51,7 @@
     width: 100%;
     height: auto;
     border-radius: 50%;
+    border: 5px solid #222f42;
     
 /* 
 
