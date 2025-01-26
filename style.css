@@ -10,7 +10,7 @@
 /*     border: 15px solid white; */
 /*     box-shadow: 0 0 0 3px #91b33c inset, 0 0 10px rgba(0, 0, 0, 0.5); */
 /*     position: relative;  */
-    max-width: 500px;
+    max-width: 480px;
     display: flex;
     justify-content: space-between;
     align-items: center;
