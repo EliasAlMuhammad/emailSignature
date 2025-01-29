@@ -6,9 +6,6 @@
     font-family: 'Muli', sans-serif;
 }
 .email-signature{
-    color: #222f42;
-    background-color: linear-gradient(45deg, white, #38B6FF);
-   
     /* padding: 20px 20px 20px 20px; */
     
     /* box-shadow: 0 0 0 3px #91b33c inset, 0 0 10px rgba(0, 0, 0, 0.5); */
@@ -60,6 +57,8 @@
 
 
 .email-signature .signature-details{
+    width: 350px;
+    height: 190px;
     background: linear-gradient(45deg, white, #38B6FF);
 /*     padding-bottom: 10px;
     margin-bottom: 12px;
@@ -93,7 +92,7 @@
 }
 /* .email-signature .signature-content li:last-child{ margin: 0; }
 .email-signature .signature-content li span{ margin-right: 6px; } */
-@media screen and (max-width:576px) {
+@media screen and (min-width:480px) {
     .email-signature{ padding: 190px 0 20px 0; }
     .email-signature{
     display: flex;
