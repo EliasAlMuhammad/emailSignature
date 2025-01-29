@@ -34,7 +34,7 @@
  */
     background: #91b33c;
     width: 230px;
-    height: 190px;
+    height: auto;
     border: 15px solid #fefdfa;
     position: absolute;
     top: -15px;
