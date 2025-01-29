@@ -1,9 +1,10 @@
-*body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #222f42;
-    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all .2s linear;
 }
 .email-signature{
     /* padding: 20px 20px 20px 20px; */
@@ -36,7 +37,6 @@
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 /*     box-shadow: 0 0 0 15px white; */
     background: linear-gradient(to top right, blue 50%, tomato  50%);
-    box-sizing: border-box;
     /* overflow: hidden;
     transform: translateY(-50%);
     position: absolute;
@@ -67,7 +67,6 @@
     border-top: 15px solid #222f42;
     border-bottom: 15px solid #222f42;
     border-left: 15px solid #222f42;
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
