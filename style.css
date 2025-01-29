@@ -83,24 +83,22 @@
     font-weight: 600;
     margin: 0 0 7px;
 }
-.email-signature .signature-content li:last-child{ margin: 0; }
-.email-signature .signature-content li span{ margin-right: 6px; }
+/* .email-signature .signature-content li:last-child{ margin: 0; }
+.email-signature .signature-content li span{ margin-right: 6px; } */
 @media screen and (max-width:576px) {
     .email-signature{ padding: 190px 0 20px 0; }
-    .email-signature:before{
-        height: 200px;
-        width: auto;
-        right: -15px;
-        left: -15px;
-        top: -15px;
-        bottom: auto;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 95%);
+    .email-signature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
     }
-    .email-signature .signature-icon{
+/*     .email-signature .signature-icon{
         transform: translateY(0) translateX(-50%);
         left: 50%;
         top: 20px;
-    }
+    } */
     .email-signature .signature-details,
     .email-signature .signature-content{
         text-align: center;
