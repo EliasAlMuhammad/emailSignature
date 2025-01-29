@@ -57,7 +57,7 @@
 }
 
 .email-signature .signature-details{
-    width: 250px;
+    width: 330px;
     height: 190px;
     background: linear-gradient(45deg, white, #38B6FF);
 /*     padding-bottom: 10px;
@@ -95,7 +95,7 @@
 }
 /* .email-signature .signature-content li:last-child{ margin: 0; }
 .email-signature .signature-content li span{ margin-right: 6px; } */
-@media screen and (min-width:480px) {
+/* @media screen and (min-width:480px) {
     .email-signature{ padding: 190px 0 20px 0; }
     .email-signature{
     display: flex;
@@ -103,13 +103,13 @@
     justify-content: space-between;
     align-items: center;
    
-    }
+    } */
 /*     .email-signature .signature-icon{
         transform: translateY(0) translateX(-50%);
         left: 50%;
         top: 20px;
     } */
-    .email-signature .signature-details,
+/*     .email-signature .signature-details,
     .email-signature .signature-content{
         text-align: center;
-    }
+    } */
