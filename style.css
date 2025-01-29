@@ -58,9 +58,14 @@
 
 
 .email-signature .signature-details{
-    padding-bottom: 10px;
+    background-color: linear-gradient(45deg, white, #38B6FF);
+/*     padding-bottom: 10px;
     margin-bottom: 12px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 .email-signature .title{
     font-size: 22px;
