@@ -31,6 +31,9 @@
     height: auto;
     border-radius: 50%;
     border: 10px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 /*     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 /*     transform: translateY(-50%); */
 }
