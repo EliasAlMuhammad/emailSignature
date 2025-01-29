@@ -5,7 +5,7 @@
 }
 .email-signature{
     color: #222f42;
-    background: linear-gradient(45deg, white, #38B6FF);
+    background-color: linear-gradient(45deg, white, #38B6FF);
     font-family: 'Muli', sans-serif;
     /* padding: 20px 20px 20px 20px; */
     border: 15px solid #222f42;
@@ -32,7 +32,7 @@
 .email-signature .signature-icon{
     width: 150px;
     height: 100vh;
-    border: 10px solid #0b7dda;
+    border:10px 10px 0px 0px solid #0b7dda;
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 /*     box-shadow: 0 0 0 15px white; */
     background: linear-gradient(to top right, blue 50%, tomato  50%);
