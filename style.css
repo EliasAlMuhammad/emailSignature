@@ -14,7 +14,7 @@
     padding: 20px 190px 20px 20px;
     border: 15px solid #222f42;
     box-shadow: 0 0 0 3px #91b33c inset, 0 0 10px rgba(0, 0, 0, 0.5);
-    position: relative;
+    position: absolute;
 }
 /* .email-signature:before{
     content: "";
@@ -36,7 +36,7 @@
     width: 230px;
     height: auto;
     border: 15px solid #fefdfa;
-    position: absolute;
+    position: relative;
     top: -15px;
     bottom: -15px;
     right: -16px;
