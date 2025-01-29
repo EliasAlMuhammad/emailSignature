@@ -50,7 +50,7 @@
 }
 .email-signature .signature-icon img{
     width: 90%;
-    height: 100%;
+    height: auto;
     border-radius: 50%;
     border: 5px solid white;
     outline: 5px solid tomato;
@@ -66,7 +66,7 @@
     border-top: 15px solid #222f42;
     border-bottom: 15px solid #222f42;
     border-left: 15px solid #222f42;
-    
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
