@@ -30,23 +30,31 @@
 } */
 
 .email-signature .signature-icon{
-    width: 150px;
+/*     width: 150px;
     height: 190px;
     border-top: 15px solid #0b7dda;
-    border-right: 15px solid #0b7dda;
+    border-right: 15px solid #0b7dda; */
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 /*     box-shadow: 0 0 0 15px white; */
-    background: linear-gradient(to top right, blue 50%, tomato  50%);
+/*     background: linear-gradient(to top right, blue 50%, tomato  50%); */
     /* overflow: hidden;
     transform: translateY(-50%);
     position: absolute;
     top: 50%;
     right: 20px;
     width: 150px; */
-    display: flex;
+/*     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center; */
+    
+    background: #91b33c;
+    width: 230px;
+    border: 15px solid #fefdfa;
+    position: absolute;
+    top: -15px;
+    bottom: -15px;
+    right: -16px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
     
 }
 .email-signature .signature-icon img{
