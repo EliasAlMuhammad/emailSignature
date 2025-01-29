@@ -9,7 +9,7 @@
 .email-signature{
     max-width: 600px;
     color: white;
-    background: #222f42;;
+    background: #222f42;
     box-shadow: 0 0 0 3px #91b33c inset, 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
