@@ -34,7 +34,10 @@
     top: 50%;
     right: 20px;
     width: 150px; */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     background: #91b33c;
     width: 230px;
     height: auto;
