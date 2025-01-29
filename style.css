@@ -34,8 +34,8 @@
 /*     height: 190px; */
     /* border: 10px solid #0b7dda; */
     /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
-    box-shadow: 0 0 0 15px white;
-    background: linear-gradient(to top right ,white 50%, #38B6FF  50%);
+/*     box-shadow: 0 0 0 15px white; */
+    background: linear-gradient(to top right ,white 50%, green  50%);
     /* overflow: hidden;
     transform: translateY(-50%);
     position: absolute;
