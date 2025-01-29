@@ -41,6 +41,7 @@
     bottom: -15px;
     right: -16px;
     clip-path: polygon(0 0, 100% 0, 100% 100%);
+    z-index: 999;
 }
 .email-signature .signature-icon img{
     width: 100%;
