@@ -21,7 +21,7 @@
   
 } */
 .email-signature .signature-icon{
-    width: 150px;
+/*     width: 150px;
     height: 150px;
     border: 10px solid #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -30,7 +30,7 @@
     position: absolute;
     top: 50%;
     right: 20px;
-    width: 150px;
+    width: 150px; */
 
     background: #91b33c;
     width: 230px;
@@ -46,6 +46,7 @@
 .email-signature .signature-icon img{
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 /* .email-signature .signature-details{
     padding-bottom: 10px;
