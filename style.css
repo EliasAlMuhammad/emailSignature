@@ -25,15 +25,16 @@
     height: 190px;
     background: linear-gradient(to top right, white 50%, #91b33c 50%);
     border: 15px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .email-signature .signature-icon img{
     width: 100%;
     height: auto;
     border-radius: 50%;
     border: 10px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
 /*     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 /*     transform: translateY(-50%); */
 }
