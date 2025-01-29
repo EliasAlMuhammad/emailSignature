@@ -7,6 +7,7 @@
     transition: all .2s linear;
 }
 .email-signature{
+    max-width: 600px;
     color: #222f42;
     background: #fff;
     font-family: 'Muli', sans-serif;
